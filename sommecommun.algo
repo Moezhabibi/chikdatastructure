@@ -1,0 +1,17 @@
+ALGORITHM somme-commun
+VAR
+    t1 : ARRAY_OF integer[] :=[12,13,6,10];
+    t2  : ARRAY_OF integer[]:=[13,10,16,15];
+    sum : integer :=0;
+    i,j := integer :=1;
+BEGIN
+    FOR i FROM 1 TO t1.length STEP 1  DO
+
+    IF (t1[i]=t2[j]) THEN
+      sum := sum + t1[i]*2  
+    END_IF
+    END FOR i FROM min TO max STEP step  DO
+        set_instructions
+    END_FOR
+    Write ("la somme est",sum);
+END
